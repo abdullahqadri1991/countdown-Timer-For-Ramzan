@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('./ramzan\ img.jpg') center center;
+    background-size: cover;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.452);
+}
+
+.title {
+    margin-top: 100px;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 0px 10px 10px  #026902;
+}
+
+.col {
+    margin-top: 100px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 36px;
+    /* width: 250px; */
+    text-align: center;
+
+}
+
+input {
+    width: 40%;
+    height: 60%;
+    background-color: rgba(32, 126, 97, 0.9);
+    color: white;
+    text-shadow: 10px 10px 10px #000000;
+    border-color: transparent;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 40px;
+}
